@@ -1,0 +1,45 @@
+.foto {
+	width: 20%;
+	position: absolute;
+}
+.nombre {
+	font-weight: bold;
+	font-size: 14pt;
+	margin-left: 22%;
+	text-decoration: underline;
+	font-family: "Times New Roman";
+}
+.datos {
+	margin-left: 22%;
+	position: absolute;
+	font-family: Arial;
+}
+.cuadros {
+	margin-left: 35%;
+	margin-bottom: 1%;
+	border: 1px solid black;
+	background-color: #2EFEF7;
+}
+.cuadros p {
+	margin-left: 2%;
+	font-size: 12px;
+}
+.datos_especiales {
+	margin-top: 5%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14pt;
+	font-family: "Times New Roman";
+}
+.cuadros_especiales {
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 2%;
+	margin-left: 5%;
+	border: 1px solid black;
+	background-color: #2EFEF7;
+}
+.cuadros_especiales p {
+	margin-left: 2%;
+	color: black;
+}
