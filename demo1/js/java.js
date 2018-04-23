@@ -17,7 +17,14 @@ function CambiarTexto() {
 
 	precio = "Muy caro";
 	miParrafo.innerHTML += 
-	"Tipo de dato string" +"<br>"+
+	"<br>"+"Tipo de dato string" +"<br>"+
+	"El precio es " + precio + "<br>" + 
+	"El doble del precio es " + (precio*2) + "<br>";
+
+	/*Cambiamos el tipo de dato de precio*/
+	precio = false;
+	miParrafo.innerHTML += 
+	"<br>"+"Tipo de dato booleano" +"<br>"+
 	"El precio es " + precio + "<br>" + 
 	"El doble del precio es " + (precio*2) + "<br>";
 }
