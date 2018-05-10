@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>VCalculadora V1</title>
+	<title>VCalculadora v1</title>
 	<meta charset="utf-8">
 	<script type="text/javascript"
 			src="js/java.js"></script>
@@ -10,14 +10,17 @@
 	<p>
 		Esto es una calculadora con un botón
 		<br>
-	<input type="number" id="Dato1">
+	<input type="text" id="Dato1" value="0">
 	<select id="signo">
 		<option value="a">+</option>
 		<option value="b">-</option>
 		<option value="c">x</option>
 		<option value="d">/</option>
+		<option value="e">^</option>
+		<option value="f">&#8730;</option>
+		
 	</select>
-	<input type="number" id="Dato2">
+	<input type="text" id="Dato2">
 	<button onclick="Obtenerdatos();">Enviar</button>
 	<p id="Resultado">
 		Este es el resultado 

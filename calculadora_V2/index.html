@@ -9,27 +9,28 @@
 </head>
 <body>
 	<div class="marco">
-		<input type="text" id="valor">
+		<input type="text" id="valor" value="">
 		<br><br>
-		<button onclick="Calcular(num1 = 0);">0</button>
-		<button onclick="Calcular(num1 = 1);">1</button>
-		<button onclick="Calcular(num1 = 2);">2</button>
-		<button onclick="Calcular(operando = suma);">+</button>
+		<button onclick="poner('0');">0</button>
+		<button onclick="poner('1');">1</button>
+		<button onclick="poner('2');">2</button>
+		<button onclick="poner('+');" id="oper" value="a">+</button>
 		<br><br>
-		<button onclick="Calcular(num1 = 3);">3</button>
-		<button onclick="Calcular(num1 = 4);">4</button>
-		<button onclick="Calcular(num1 = 5);">5</button>
-		<button onclick="Calcular(operando = resta);">-</button>
+		<button onclick="poner('3');">3</button>
+		<button onclick="poner('4');">4</button>
+		<button onclick="poner('5');">5</button>
+		<button onclick="poner('-');" id="oper" value="b">-</button>
 		<br><br>
-		<button onclick="Calcular(num1 = 6);">6</button>
-		<button onclick="Calcular(num1 = 7);">7</button>
-		<button onclick="Calcular(num1 = 8);">8</button>
-		<button onclick="Calcular(operando = mul);">x</button>
+		<button onclick="poner('6');">6</button>
+		<button onclick="poner('7');">7</button>
+		<button onclick="poner('8');">8</button>
+		<button onclick="poner('x');" id="oper" value="c">x</button>
 		<br><br>
-		<button onclick="Calcular(num1 = 9);">9</button>
-		<button onclick="">²</button>
-		<button onclick="">€</button>
-		<button onclick="Calcular(operando = division);">/</button>
+		<button onclick="poner('9');">9</button>
+		<button onclick="poner('.');" id=".">.</button>
+		<button onclick="poner('/');" id="oper" value="c">/</button>
+		<button onclick="Calcular();">=</button>
+		
 	</div>
 </body>
 </html>
