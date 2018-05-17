@@ -11,17 +11,19 @@ function EscribirNumero() {
 	// primero con while
 	// luego con do while
 
-	while (contador < numero){
+	while (contador <= numero){
 		campoResultado.innerHTML += contador + ' ';
 		contador++;
 	}
 
 	contador = 0;
-	campoResultado.innerHTML += '<br>';
+	campoResultado.innerHTML += '<br><br>';
 
 	do {
 		campoResultado.innerHTML += contador + ' ';
 		contador++;
-	} while (contador < numero);
+	} while (contador <= numero);
+
+	campoResultado.innerHTML += '<br><br>';
 
 }
