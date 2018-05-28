@@ -54,4 +54,4 @@ function Modificar() {
 
 }
 
-//5 contactos, añador, modificar, borrar y buscar
+//5 contactos, añadir, modificar, borrar y buscar
